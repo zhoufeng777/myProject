@@ -20,7 +20,7 @@ public class SolutionTest {
 
     @Test
     public  void testReplaceDuplicates(){
-        String inputStr="abcccbadaaaa";
+        String inputStr="abcccbad";
         Solution solution = new Solution();
         String result= solution.removeDuplicates(inputStr,true);
 
